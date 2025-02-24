@@ -9,10 +9,17 @@
    - Example 2: When executed as `./createDirectories.sh Movie 20 50`, it creates 31 directories as `Movie20 Movie21 Movie22 ... Movie50`.
 
    **Answer**
-   
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day05/image/task%201.png)
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day05/image/task%201-2.png)
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day05/image/task%201-3.png)   
+#!/bin/bash
+Directory_name=$1
+Start_number=$2
+End_number=$3
+
+for ((i=Start_number; i<=End_number; i++))
+do
+        mkdir "${Directory_name}${i}"
+done
+echo ""Directories are created succesfully"""
+  
 
 2. **Create a Script to Backup All Your Work:**
    - Backups are an important part of a DevOps Engineer's day-to-day activities. The video in the references will help you understand how a DevOps Engineer takes backups (it can feel a bit difficult but keep trying, nothing is impossible).
