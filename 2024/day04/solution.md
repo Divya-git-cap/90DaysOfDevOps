@@ -14,7 +14,7 @@ Task 2: What is `#!/bin/bash`? Can we write `#!/bin/sh` as well?
 
 Task 3: Write a Shell Script that prints `I will complete #90DaysOfDevOps challenge`.
 
-#1/bin/bash
+#!/bin/bash
 echo "I will complete 90 days of devops Challenge"
 
 
