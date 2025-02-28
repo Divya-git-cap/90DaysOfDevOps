@@ -22,16 +22,12 @@ echo "Directories are created succesfully"
 Destination_dir="/c/Users/Divya.Moykhede/git_tutorial/backupdir"
 Timestamp=$(date +%Y%m%d_%H%M%S)   # Correct command substitution
 Backup_file="backup_${Timestamp}.tar.gz"  # Use correct variable substitution
-
 # Ensure the source directory exists and is valid
 Source_dir="/c/Users/Divya.Moykhede/devopstest/backup_src"
-
 # Make sure the destination directory exists
 mkdir -p "$Destination_dir"
-
 # Now, use the correct path for the tar command
 tar czf "$Destination_dir/$Backup_file" -C /c/Users/Divya.Moykhede/devopstest backup_src
-
 echo "Backup is created"
 
    
