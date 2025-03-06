@@ -34,18 +34,17 @@ echo "Backup is created"
 
 4. **Read About Cron and Crontab to Automate the Backup Script:**
    - Cron is the system's main scheduler for running jobs or tasks unattended. A command called crontab allows the user to submit, edit, or delete entries to cron. A crontab file is a user file that holds the scheduling information.
-
-   **Answer**
-   
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day05/image/task%203.png)   
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day05/image/task%203-1.png) 
+Lets create a crontab that schedules backup at 19th October 2pm
+cron 00 14 19 10 * ./backup.sh
 
 5. **Read About User Management:**
    - A user is an entity in a Linux operating system that can manipulate files and perform several other operations. Each user is assigned an ID that is unique within the system. IDs 0 to 999 are assigned to system users, and local user IDs start from 1000 onwards.
    - Create 2 users and display their usernames.
+     #!/bin/bash
+     sudo useradd user1
+     sudo useradd user2
+     cat /etc/passwd | grep -E "user1|user2"
+     
+     
 
-   **Answer**
-   
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day05/image/task%204.png)
 
-[LinkedIn](https://www.linkedin.com/in/bhavin-savaliya/).
