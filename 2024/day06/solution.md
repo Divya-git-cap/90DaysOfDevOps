@@ -13,8 +13,6 @@
        - Use `chmod` to change the other users' permissions of a file or directory.
    - Task: Change the user permissions of the file and note the changes after running `ls -ltr`.
 
-   **Answer**
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day06/image/task1.png)
 
 2. **Writing an Article:**
    - Write an article about file permissions based on your understanding from the notes.
