@@ -144,24 +144,19 @@ Systemctl is used to examine and control the state of the “systemd” system a
    - Write a script to automate the starting and stopping of Docker and Jenkins services.
 
    **Answer**
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task4.png)
+   
 
 5. **Enable and Disable Services:**
    - Use systemctl to enable Docker to start on boot and disable Jenkins from starting on boot.
 
    **Answer**
     - Enable Docker to start on boot:
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task5.png)
-
+       sudo systemctl enable docker
+      
     - Disable Jenkins from starting on boot:
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task5-1.png)
+      sudo systemctl disable jenkins
 
 6. **Analyze Logs:**
    - Use journalctl to analyze the logs of the Docker and Jenkins services. Post your findings.
 
-   **Answer**
-    - Docker Logs:
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task6.png)
-
-    - Jenkins Logs:
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task6-1.png)
+   
