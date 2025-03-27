@@ -158,5 +158,9 @@ Systemctl is used to examine and control the state of the “systemd” system a
 
 6. **Analyze Logs:**
    - Use journalctl to analyze the logs of the Docker and Jenkins services. Post your findings.
+     Usage- journalctl -u servicename - TO view logs of a specific service
+     journalctl - Veiw all logs
+     
+     
 
    
